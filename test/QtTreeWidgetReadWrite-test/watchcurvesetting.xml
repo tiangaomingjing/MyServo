@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>735</width>
+    <height>583</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTreeWidget" name="treeWidget">
+     <column>
+      <property name="text">
+       <string>Item</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Value</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Description</string>
+      </property>
+     </column>
+     <item>
+      <property name="text">
+       <string>ViewSetting</string>
+      </property>
+      <property name="text">
+       <string>NULL</string>
+      </property>
+      <property name="text">
+       <string>NULL</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>XYRange</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>xtime</string>
+        </property>
+        <property name="text">
+         <string>5</string>
+        </property>
+        <property name="text">
+         <string>NULL</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ymax</string>
+        </property>
+        <property name="text">
+         <string>5000</string>
+        </property>
+        <property name="text">
+         <string>NULL</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ymin</string>
+        </property>
+        <property name="text">
+         <string>-500</string>
+        </property>
+        <property name="text">
+         <string>NULL</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>storeTime</string>
+        </property>
+        <property name="text">
+         <string>10</string>
+        </property>
+        <property name="text">
+         <string>NULL</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>pointNum</string>
+        </property>
+        <property name="text">
+         <string>1000</string>
+        </property>
+        <property name="text">
+         <string>NULL</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>SampleTimeMS</string>
+       </property>
+       <property name="text">
+        <string>0.06250</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>CurrentViewIndex</string>
+       </property>
+       <property name="text">
+        <string>5</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>Row</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="text">
+       <string>CurveType曲线类型，0：正常曲线  1:使用脚本的</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>IsDraw</string>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>FullName</string>
+       </property>
+       <property name="text">
+        <string>gSevDrv.sev_obj.cur.mot.PPN_1</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Color</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>ColorR</string>
+        </property>
+        <property name="text">
+         <string>255</string>
+        </property>
+        <property name="text">
+         <string>NULL</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ColorG</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+        <property name="text">
+         <string>NULL</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ColorB</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+        <property name="text">
+         <string>NULL</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>AxisNum</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BytesNum</string>
+       </property>
+       <property name="text">
+        <string>2</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>OffsetAddr</string>
+       </property>
+       <property name="text">
+        <string>416</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BaseAddr</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>AddValue</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>MultiValue</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>EquationDescription</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>PrmFactor</string>
+       </property>
+       <property name="text">
+        <string>-1</string>
+       </property>
+       <property name="text">
+        <string>VarCount连续变量的个数</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Factor</string>
+        </property>
+        <property name="text">
+         <string>-1</string>
+        </property>
+        <property name="text">
+         <string>PlotPrmFatorTypeID因子类型 1：连续读变量</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>FullName</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>BytesNum</string>
+         </property>
+         <property name="text">
+          <string>-1</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>OffsetAddr</string>
+         </property>
+         <property name="text">
+          <string>-1</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>BaseAddr</string>
+         </property>
+         <property name="text">
+          <string>-1</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+        </item>
+       </item>
+       <item>
+        <property name="text">
+         <string>Factor</string>
+        </property>
+        <property name="text">
+         <string>-1</string>
+        </property>
+        <property name="text">
+         <string>PlotPrmFatorTypeID因子类型 0：读一次常量</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>FullName</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>BytesNum</string>
+         </property>
+         <property name="text">
+          <string>-1</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>OffsetAddr</string>
+         </property>
+         <property name="text">
+          <string>-1</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>BaseAddr</string>
+         </property>
+         <property name="text">
+          <string>-1</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+        </item>
+       </item>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>Row</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="text">
+       <string>CurveType曲线类型，0：正常曲线  1:使用脚本的</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>IsDraw</string>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>FullName</string>
+       </property>
+       <property name="text">
+        <string>gSevDrv.sev_obj.cur.mot.Nos_1</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Color</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>ColorR</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+        <property name="text">
+         <string>NULL</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ColorG</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+        <property name="text">
+         <string>NULL</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ColorB</string>
+        </property>
+        <property name="text">
+         <string>255</string>
+        </property>
+        <property name="text">
+         <string>NULL</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>AxisNum</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BytesNum</string>
+       </property>
+       <property name="text">
+        <string>2</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>OffsetAddr</string>
+       </property>
+       <property name="text">
+        <string>412</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BaseAddr</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>AddValue</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>MultiValue</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>EquationDescription</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>PrmFactor</string>
+       </property>
+       <property name="text">
+        <string>-1</string>
+       </property>
+       <property name="text">
+        <string>VarCount连续变量的个数</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Factor</string>
+        </property>
+        <property name="text">
+         <string>-1</string>
+        </property>
+        <property name="text">
+         <string>PlotPrmFatorTypeID因子类型 1：连续读变量</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>FullName</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>BytesNum</string>
+         </property>
+         <property name="text">
+          <string>-1</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>OffsetAddr</string>
+         </property>
+         <property name="text">
+          <string>-1</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>BaseAddr</string>
+         </property>
+         <property name="text">
+          <string>-1</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+        </item>
+       </item>
+       <item>
+        <property name="text">
+         <string>Factor</string>
+        </property>
+        <property name="text">
+         <string>-1</string>
+        </property>
+        <property name="text">
+         <string>PlotPrmFatorTypeID因子类型 0：读一次常量</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>FullName</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>BytesNum</string>
+         </property>
+         <property name="text">
+          <string>-1</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>OffsetAddr</string>
+         </property>
+         <property name="text">
+          <string>-1</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>BaseAddr</string>
+         </property>
+         <property name="text">
+          <string>-1</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+        </item>
+       </item>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>Row</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="text">
+       <string>CurveType曲线类型，0：正常曲线  1:使用脚本的</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>IsDraw</string>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>FullName</string>
+       </property>
+       <property name="text">
+        <string>gSevDrv.sev_obj.cur.mot.Imax_1</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Color</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>ColorR</string>
+        </property>
+        <property name="text">
+         <string>128</string>
+        </property>
+        <property name="text">
+         <string>NULL</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ColorG</string>
+        </property>
+        <property name="text">
+         <string>128</string>
+        </property>
+        <property name="text">
+         <string>NULL</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ColorB</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+        <property name="text">
+         <string>NULL</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>AxisNum</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BytesNum</string>
+       </property>
+       <property name="text">
+        <string>2</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>OffsetAddr</string>
+       </property>
+       <property name="text">
+        <string>406</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BaseAddr</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>AddValue</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>MultiValue</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>EquationDescription</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>PrmFactor</string>
+       </property>
+       <property name="text">
+        <string>-1</string>
+       </property>
+       <property name="text">
+        <string>VarCount连续变量的个数</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Factor</string>
+        </property>
+        <property name="text">
+         <string>-1</string>
+        </property>
+        <property name="text">
+         <string>PlotPrmFatorTypeID因子类型 1：连续读变量</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>FullName</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>BytesNum</string>
+         </property>
+         <property name="text">
+          <string>-1</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>OffsetAddr</string>
+         </property>
+         <property name="text">
+          <string>-1</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>BaseAddr</string>
+         </property>
+         <property name="text">
+          <string>-1</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+        </item>
+       </item>
+       <item>
+        <property name="text">
+         <string>Factor</string>
+        </property>
+        <property name="text">
+         <string>-1</string>
+        </property>
+        <property name="text">
+         <string>PlotPrmFatorTypeID因子类型 0：读一次常量</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>FullName</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>BytesNum</string>
+         </property>
+         <property name="text">
+          <string>-1</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>OffsetAddr</string>
+         </property>
+         <property name="text">
+          <string>-1</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>BaseAddr</string>
+         </property>
+         <property name="text">
+          <string>-1</string>
+         </property>
+         <property name="text">
+          <string>NULL</string>
+         </property>
+        </item>
+       </item>
+      </item>
+     </item>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

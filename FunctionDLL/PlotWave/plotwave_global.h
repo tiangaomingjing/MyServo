@@ -1,0 +1,12 @@
+#ifndef PLOTWAVE_GLOBAL_H
+#define PLOTWAVE_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(PLOTWAVE_LIBRARY)
+#  define PLOTWAVESHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define PLOTWAVESHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // PLOTWAVE_GLOBAL_H

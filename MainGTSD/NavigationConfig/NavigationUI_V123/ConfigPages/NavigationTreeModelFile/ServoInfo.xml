@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServoList>
+	<Servo name='GTSD41'>
+		<ServoTypeId typeName='GTSD_4X'>0</ServoTypeId>
+		<AxisCount>4</AxisCount>
+		<Power>750W</Power>
+		<PowerIn>220V单相</PowerIn>
+		<DigitalInput>16</DigitalInput>
+		<DigitalOutput>16</DigitalOutput>
+		<AnalogInput>16</AnalogInput>
+		<AnalogOutput>16</AnalogOutput>
+	</Servo>
+	
+	<Servo name='GTSD42'>
+		<ServoTypeId typeName='GTSD_4X'>0</ServoTypeId>
+		<AxisCount>4</AxisCount>
+		<Power>1000W</Power>
+		<PowerIn>220V单相</PowerIn>
+		<DigitalInput>16</DigitalInput>
+		<DigitalOutput>16</DigitalOutput>
+		<AnalogInput>16</AnalogInput>
+		<AnalogOutput>16</AnalogOutput>
+	</Servo>
+	
+	<Servo name='GTSD61'>
+		<ServoTypeId typeName='GTSD_6X'>1</ServoTypeId>
+		<AxisCount>6</AxisCount>
+		<Power>1000W</Power>
+		<PowerIn>220V单相</PowerIn>
+		<DigitalInput>16</DigitalInput>
+		<DigitalOutput>16</DigitalOutput>
+		<AnalogInput>16</AnalogInput>
+		<AnalogOutput>16</AnalogOutput>
+	</Servo>
+	
+	<Servo name='GTSD62'>
+		<ServoTypeId typeName='GTSD_6X'>1</ServoTypeId>
+		<AxisCount>6</AxisCount>
+		<Power>2000W</Power>
+		<PowerIn>220V单相</PowerIn>
+		<DigitalInput>16</DigitalInput>
+		<DigitalOutput>16</DigitalOutput>
+		<AnalogInput>16</AnalogInput>
+		<AnalogOutput>16</AnalogOutput>
+	</Servo>
+	
+</ServoList>

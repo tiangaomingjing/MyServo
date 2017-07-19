@@ -1,0 +1,46 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/start.png</file>
+        <file>icon/stop.png</file>
+        <file>icon/off.png</file>
+        <file>icon/on.png</file>
+        <file>icon/auto.png</file>
+        <file>icon/clear.png</file>
+        <file>icon/fit.png</file>
+        <file>icon/next.png</file>
+        <file>icon/prev.png</file>
+        <file>icon/view.png</file>
+        <file>icon/all.png</file>
+        <file>icon/add.png</file>
+        <file>icon/remove.png</file>
+        <file>icon/checkbox_checked.png</file>
+        <file>icon/checkbox_unchecked.png</file>
+        <file>icon/view_max.png</file>
+        <file>icon/view_min.png</file>
+        <file>icon/eye.png</file>
+        <file>icon/measureH.png</file>
+        <file>icon/measureV.png</file>
+        <file>icon/tag.png</file>
+        <file>icon/menu_open.png</file>
+        <file>icon/menu_save.png</file>
+        <file>icon/servo.png</file>
+        <file>icon/servooff.png</file>
+        <file>icon/servoon.png</file>
+        <file>icon/soff.png</file>
+        <file>icon/son.png</file>
+        <file>icon/son3.png</file>
+        <file>icon/AMP.png</file>
+        <file>icon/D.png</file>
+        <file>icon/L.png</file>
+        <file>icon/PHA.png</file>
+        <file>icon/R.png</file>
+        <file>icon/U.png</file>
+        <file>icon/xyselect.png</file>
+        <file>icon/hori1.png</file>
+        <file>icon/hori11.png</file>
+        <file>icon/ver1.png</file>
+        <file>icon/ver11.png</file>
+        <file>icon/wavenoseq.png</file>
+        <file>icon/waveseq.png</file>
+    </qresource>
+</RCC>

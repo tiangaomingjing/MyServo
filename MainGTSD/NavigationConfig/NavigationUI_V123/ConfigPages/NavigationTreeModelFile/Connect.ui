@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>421</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTreeWidget" name="treeWidget">
+     <column>
+      <property name="text">
+       <string>ComName</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Parameters</string>
+      </property>
+     </column>
+     <item>
+      <property name="text">
+       <string>Ethernet</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>裸机网口</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>TCP/IP</string>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>IpAddress</string>
+       </property>
+       <property name="text">
+        <string>192.168.1.1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>IpPort</string>
+       </property>
+       <property name="text">
+        <string>8080</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>USB2Uart</string>
+      </property>
+      <property name="text">
+       <string>2</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>COM</string>
+       </property>
+       <property name="text">
+        <string>COM3</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BaudRate</string>
+       </property>
+       <property name="text">
+        <string>115200</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DataBits</string>
+       </property>
+       <property name="text">
+        <string>11</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Parity</string>
+       </property>
+       <property name="text">
+        <string>NoParity</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>StopBits</string>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>FlowControl</string>
+       </property>
+       <property name="text">
+        <string>NoFlowControl</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>Virtual</string>
+      </property>
+      <property name="text">
+       <string>3</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>undefined</string>
+       </property>
+       <property name="text">
+        <string>3</string>
+       </property>
+      </item>
+     </item>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

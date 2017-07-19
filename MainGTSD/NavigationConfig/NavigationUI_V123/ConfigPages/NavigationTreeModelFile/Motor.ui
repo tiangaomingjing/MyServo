@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>714</width>
+    <height>558</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTreeWidget" name="treeWidget">
+     <column>
+      <property name="text">
+       <string>memberName</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>value</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>memberType</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>unit</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>downlimit</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>uplimit</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>introduction</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>framAddr</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>chineseName</string>
+      </property>
+     </column>
+     <item>
+      <property name="text">
+       <string>Current</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string>电流</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>gSevDrv.sev_obj.cur.mot.Imax_1</string>
+       </property>
+       <property name="text">
+        <string>1.7</string>
+       </property>
+       <property name="text">
+        <string>Uint16</string>
+       </property>
+       <property name="text">
+        <string>A</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+       <property name="text">
+        <string>101</string>
+       </property>
+       <property name="text">
+        <string>峰值电流</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>gSevDrv.sev_obj.cur.mot.Irat_1</string>
+       </property>
+       <property name="text">
+        <string>10</string>
+       </property>
+       <property name="text">
+        <string>Uint16</string>
+       </property>
+       <property name="text">
+        <string>A</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+       <property name="text">
+        <string>100</string>
+       </property>
+       <property name="text">
+        <string>额定电流</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>Velocity</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string>速度</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>gSevDrv.sev_obj.cur.mot.Sct_1</string>
+       </property>
+       <property name="text">
+        <string>3000</string>
+       </property>
+       <property name="text">
+        <string>Uint16</string>
+       </property>
+       <property name="text">
+        <string>rpm</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+       <property name="text">
+        <string>102</string>
+       </property>
+       <property name="text">
+        <string>额定转速</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>gSevDrv.sev_obj.cur.mot.Srat_1</string>
+       </property>
+       <property name="text">
+        <string>200</string>
+       </property>
+       <property name="text">
+        <string>Uint16</string>
+       </property>
+       <property name="text">
+        <string>%</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+       <property name="text">
+        <string>103</string>
+       </property>
+       <property name="text">
+        <string>过速百分比</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>gSevDrv.sev_obj.cur.mot.Nos_1</string>
+       </property>
+       <property name="text">
+        <string>5000</string>
+       </property>
+       <property name="text">
+        <string>Uint16</string>
+       </property>
+       <property name="text">
+        <string>rpm</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+       <property name="text">
+        <string>104</string>
+       </property>
+       <property name="text">
+        <string>最大转速</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>Impedance</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string>阻抗</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>gSevDrv.sev_obj.cur.mot.Rm_1</string>
+       </property>
+       <property name="text">
+        <string>3.5</string>
+       </property>
+       <property name="text">
+        <string>Uint16</string>
+       </property>
+       <property name="text">
+        <string>Ohm	</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+       <property name="text">
+        <string>112</string>
+       </property>
+       <property name="text">
+        <string>绕线电阻</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>gSevDrv.sev_obj.cur.mot.Ldm_1</string>
+       </property>
+       <property name="text">
+        <string>12</string>
+       </property>
+       <property name="text">
+        <string>Uint16</string>
+       </property>
+       <property name="text">
+        <string>mH</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+       <property name="text">
+        <string>110</string>
+       </property>
+       <property name="text">
+        <string>d轴电感</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>gSevDrv.sev_obj.cur.mot.Lqm_1</string>
+       </property>
+       <property name="text">
+        <string>12</string>
+       </property>
+       <property name="text">
+        <string>Uint16</string>
+       </property>
+       <property name="text">
+        <string>mH</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+       <property name="text">
+        <string>111</string>
+       </property>
+       <property name="text">
+        <string>q轴电感</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>MechanicalParameter</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string>机械参数</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>gSevDrv.sev_obj.cur.mot.Jm_1</string>
+       </property>
+       <property name="text">
+        <string>28</string>
+       </property>
+       <property name="text">
+        <string>Uint32</string>
+       </property>
+       <property name="text">
+        <string>10^-6.kg.m^2</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+       <property name="text">
+        <string>114</string>
+       </property>
+       <property name="text">
+        <string>电机转动惯量</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>gSevDrv.sev_obj.cur.mot.Jrat_1</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>Uint16</string>
+       </property>
+       <property name="text">
+        <string>%</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+       <property name="text">
+        <string>116</string>
+       </property>
+       <property name="text">
+        <string>惯量比</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>gSevDrv.sev_obj.cur.mot.Fm_1</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>Uint16</string>
+       </property>
+       <property name="text">
+        <string>10^-4.N.m/(rad/s)</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+       <property name="text">
+        <string>117</string>
+       </property>
+       <property name="text">
+        <string>摩擦系数</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>gSevDrv.sev_obj.cur.mot.PPN_1</string>
+       </property>
+       <property name="text">
+        <string>4</string>
+       </property>
+       <property name="text">
+        <string>Uint16</string>
+       </property>
+       <property name="text">
+        <string>对</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+       <property name="text">
+        <string>106</string>
+       </property>
+       <property name="text">
+        <string>极对数</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>Torque</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="text">
+       <string>力矩参数</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>gSevDrv.sev_obj.cur.mot.Tqr_1</string>
+       </property>
+       <property name="text">
+        <string>1.3</string>
+       </property>
+       <property name="text">
+        <string>Uint16</string>
+       </property>
+       <property name="text">
+        <string>N.m</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+       <property name="text">
+        <string>105</string>
+       </property>
+       <property name="text">
+        <string>额定转矩</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>gSevDrv.sev_obj.cur.mot.PHIm_1</string>
+       </property>
+       <property name="text">
+        <string>20</string>
+       </property>
+       <property name="text">
+        <string>Uint16</string>
+       </property>
+       <property name="text">
+        <string>mV/rpm</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+       <property name="text">
+        <string>108</string>
+       </property>
+       <property name="text">
+        <string>反电动势系数</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>gSevDrv.sev_obj.cur.mot.Vmax_1</string>
+       </property>
+       <property name="text">
+        <string>150</string>
+       </property>
+       <property name="text">
+        <string>Uint16</string>
+       </property>
+       <property name="text">
+        <string>V</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+       <property name="text">
+        <string>107</string>
+       </property>
+       <property name="text">
+        <string>最大电压</string>
+       </property>
+      </item>
+     </item>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

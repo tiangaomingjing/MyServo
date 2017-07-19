@@ -1,0 +1,12 @@
+#ifndef CFGMOTOR_GLOBAL_H
+#define CFGMOTOR_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(CFGMOTOR_LIBRARY)
+#  define CFGMOTORSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define CFGMOTORSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // CFGMOTOR_GLOBAL_H

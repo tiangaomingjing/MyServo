@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>535</width>
+    <height>436</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTreeWidget" name="treeWidget">
+     <column>
+      <property name="text">
+       <string>类型</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>轴数</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>功率</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>电源输入</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>DigitalInput</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>DigitalOutput</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>AnalogInput</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>AnalogOutput</string>
+      </property>
+     </column>
+     <item>
+      <property name="text">
+       <string>GTSD_4X</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>GTSD41</string>
+       </property>
+       <property name="text">
+        <string>4</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <item>
+        <property name="text">
+         <string>FirmWare_1.1.9</string>
+        </property>
+        <property name="text">
+         <string>4</string>
+        </property>
+        <property name="text">
+         <string>750W</string>
+        </property>
+        <property name="text">
+         <string>220V两相</string>
+        </property>
+        <property name="text">
+         <string>16</string>
+        </property>
+        <property name="text">
+         <string>16</string>
+        </property>
+        <property name="text">
+         <string>16</string>
+        </property>
+        <property name="text">
+         <string>16</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>FirmWare_1.2.0</string>
+        </property>
+        <property name="text">
+         <string>4</string>
+        </property>
+        <property name="text">
+         <string>750W</string>
+        </property>
+        <property name="text">
+         <string>220V两相</string>
+        </property>
+        <property name="text">
+         <string>16</string>
+        </property>
+        <property name="text">
+         <string>16</string>
+        </property>
+        <property name="text">
+         <string>16</string>
+        </property>
+        <property name="text">
+         <string>16</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>FirmWare_1.2.1</string>
+        </property>
+        <property name="text">
+         <string>4</string>
+        </property>
+        <property name="text">
+         <string>750W</string>
+        </property>
+        <property name="text">
+         <string>220V两相</string>
+        </property>
+        <property name="text">
+         <string>16</string>
+        </property>
+        <property name="text">
+         <string>16</string>
+        </property>
+        <property name="text">
+         <string>16</string>
+        </property>
+        <property name="text">
+         <string>16</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>GTSD42</string>
+       </property>
+       <property name="text">
+        <string>4</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <item>
+        <property name="text">
+         <string>FirmWare_1.0.0</string>
+        </property>
+        <property name="text">
+         <string>4</string>
+        </property>
+        <property name="text">
+         <string>1000W</string>
+        </property>
+        <property name="text">
+         <string>220V三相</string>
+        </property>
+        <property name="text">
+         <string>16</string>
+        </property>
+        <property name="text">
+         <string>16</string>
+        </property>
+        <property name="text">
+         <string>16</string>
+        </property>
+        <property name="text">
+         <string>16</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>FirmWare_1.0.1</string>
+        </property>
+        <property name="text">
+         <string>4</string>
+        </property>
+        <property name="text">
+         <string>1000W</string>
+        </property>
+        <property name="text">
+         <string>220V两相</string>
+        </property>
+        <property name="text">
+         <string>16</string>
+        </property>
+        <property name="text">
+         <string>16</string>
+        </property>
+        <property name="text">
+         <string>16</string>
+        </property>
+        <property name="text">
+         <string>16</string>
+        </property>
+       </item>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>GTSD_1X</string>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>GWT-7.5KW</string>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>FirmWare_1.0.0</string>
+        </property>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>GWT-25KW</string>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>FirmWare_1.0.0</string>
+        </property>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>MGMT-7.5KW</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>FirmWare_1.0.0</string>
+        </property>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </item>
+      </item>
+     </item>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

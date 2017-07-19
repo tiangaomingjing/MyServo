@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/arrow.png</file>
+        <file>image/dsp.png</file>
+        <file>image/fpga.png</file>
+        <file>image/file_download.png</file>
+        <file>image/reload.png</file>
+        <file>image/led_green.png</file>
+        <file>image/led_red.png</file>
+        <file>image/servo.png</file>
+    </qresource>
+</RCC>

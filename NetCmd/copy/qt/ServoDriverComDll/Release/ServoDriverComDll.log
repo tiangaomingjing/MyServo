@@ -1,0 +1,59 @@
+﻿生成启动时间为 2016/12/26 16:03:06。
+     1>项目“E:\googoltechdoc\scara\ServoSystemManager1.0_2016_09_05\ServoSystemManager1.0\ServoSystemManager\ServoDriverComDll\ServoDriverComDll.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /I.\NetCom\include /I.\NetCom\wpcap\Include\pcap /I.\NetCom\wpcap\Include /I.\AbsCom\include /I.\Cmd\include /I.\PlotWave\include /I.\ /I.\..\ /I.\ParseIntelHex\include /I.\FirmwareDL\include /I.\UartBoot\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D SERVODRIVERCOMDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\ServoDriverComDll.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\vs2013\VC\bin\CL.exe /c /I.\NetCom\include /I.\NetCom\wpcap\Include\pcap /I.\NetCom\wpcap\Include /I.\AbsCom\include /I.\Cmd\include /I.\PlotWave\include /I.\ /I.\..\ /I.\ParseIntelHex\include /I.\FirmwareDL\include /I.\UartBoot\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D SERVODRIVERCOMDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\ServoDriverComDll.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AbsCom\src\AbsCom.cpp Cmd\src\ST_GTSD_Cmd.cpp FirmwareDL\src\FirmwareDl.cpp NetCom\src\Net.cpp NetCom\src\NetCommunication.cpp NetCom\src\Packet.cpp ParseIntelHex\src\ParseHex.cpp PlotWave\src\cpu_timer.cpp PlotWave\src\gdef.cpp PlotWave\src\mt_timer.cpp PlotWave\src\PlotWave.cpp ServoDriverComDll.cpp UartBoot\src\hex2ldr.cpp UartBoot\src\ihex.cpp UartBoot\src\serialport.cpp
+         AbsCom.cpp
+         ST_GTSD_Cmd.cpp
+         FirmwareDl.cpp
+         Net.cpp
+         NetCommunication.cpp
+         Packet.cpp
+         ParseHex.cpp
+         cpu_timer.cpp
+         gdef.cpp
+         mt_timer.cpp
+         PlotWave.cpp
+         ServoDriverComDll.cpp
+         hex2ldr.cpp
+         ihex.cpp
+         serialport.cpp
+     1>UartBoot\src\serialport.cpp(99): warning C4800: “int16”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>UartBoot\src\serialport.cpp(106): warning C4800: “int16”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>UartBoot\src\serialport.cpp(126): warning C4800: “int16”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>UartBoot\src\serialport.cpp(133): warning C4800: “int16”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>UartBoot\src\serialport.cpp(144): warning C4800: “int16”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>UartBoot\src\serialport.cpp(150): warning C4800: “int16”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>UartBoot\src\serialport.cpp(204): warning C4800: “int16”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>UartBoot\src\serialport.cpp(211): warning C4800: “int16”: 将值强制为布尔值“true”或“false”(性能警告)
+         D:\vs2013\VC\bin\CL.exe /c /I.\NetCom\include /I.\NetCom\wpcap\Include\pcap /I.\NetCom\wpcap\Include /I.\AbsCom\include /I.\Cmd\include /I.\PlotWave\include /I.\ /I.\..\ /I.\ParseIntelHex\include /I.\FirmwareDL\include /I.\UartBoot\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D SERVODRIVERCOMDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\googoltechdoc\scara\ServoSystemManager1.0_2016_09_05\ServoSystemManager1.0\ServoSystemManager\Release\ServoDriverComDll.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\googoltechdoc\scara\ServoSystemManager1.0_2016_09_05\ServoSystemManager1.0\ServoSystemManager\Release\ServoDriverComDll.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\googoltechdoc\scara\ServoSystemManager1.0_2016_09_05\ServoSystemManager1.0\ServoSystemManager\Release\ServoDriverComDll.lib" /MACHINE:X86 /SAFESEH /DLL Release\AbsCom.obj
+         Release\ST_GTSD_Cmd.obj
+         Release\dllmain.obj
+         Release\FirmwareDl.obj
+         Release\Net.obj
+         Release\NetCommunication.obj
+         Release\Packet.obj
+         Release\ParseHex.obj
+         Release\cpu_timer.obj
+         Release\gdef.obj
+         Release\mt_timer.obj
+         Release\PlotWave.obj
+         Release\ServoDriverComDll.obj
+         Release\stdafx.obj
+         Release\hex2ldr.obj
+         Release\ihex.obj
+         Release\serialport.obj
+         NetCom\wpcap\lib\wpcap.lib
+            正在创建库 E:\googoltechdoc\scara\ServoSystemManager1.0_2016_09_05\ServoSystemManager1.0\ServoSystemManager\Release\ServoDriverComDll.lib 和对象 E:\googoltechdoc\scara\ServoSystemManager1.0_2016_09_05\ServoSystemManager1.0\ServoSystemManager\Release\ServoDriverComDll.exp
+         正在生成代码
+         已完成代码的生成
+         ServoDriverComDll.vcxproj -> E:\googoltechdoc\scara\ServoSystemManager1.0_2016_09_05\ServoSystemManager1.0\ServoSystemManager\Release\ServoDriverComDll.dll
+     1>已完成生成项目“E:\googoltechdoc\scara\ServoSystemManager1.0_2016_09_05\ServoSystemManager1.0\ServoSystemManager\ServoDriverComDll\ServoDriverComDll.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.03

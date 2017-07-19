@@ -1,0 +1,15 @@
+{
+	"EncoderConfigPage":[
+		{"pos_in":"gSevDrv.sev_obj.cur.rsv.pos_in"},
+		{"pos":"gSevDrv.sev_obj.cur.rsv.pos"},
+		{"pos_ofst":"gSevDrv.sev_obj.cur.rsv.prm.pos_ofst_3"},
+		{"pos_adj_flag":"gSevDrv.sev_obj.mfj.pos_adj_flag"},
+		{"line_num":"gSevDrv.sev_obj.cur.rsv.prm.line_num_3"},
+		{"coder_typ":"gSevDrv.sev_obj.cur.rsv.prm.coder_typ_3"},
+		{"cmd_src_sel":"gSevDrv.sev_obj.pos.seq.prm.cmd_src_sel"}
+	],
+	"LimitConfigPage":[
+	],
+	"MotionConfigPage":[
+	]
+}

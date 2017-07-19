@@ -1,0 +1,66 @@
+﻿生成启动时间为 2017/2/4 11:43:35。
+     1>项目“D:\Smart\ServoMaster\commandLibrary_copy\RN_LINK\ServoDriverComDll_ringNet\ServoDriverComDll\ServoDriverComDll.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\program\VS2013\VC\bin\CL.exe /c /I.\NetCom\include /I.\NetCom\wpcap\Include\pcap /I.\NetCom\wpcap\Include /I.\AbsCom\include /I.\Cmd\include /I.\PlotWave\include /I.\ /I.\..\ /I.\ParseIntelHex\include /I.\FirmwareDL\include /I.\UartBoot\include /I.\RingNetCom\include /I.\socketCom\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SERVODRIVERCOMDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\ServoDriverComDll.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\program\VS2013\VC\bin\CL.exe /c /I.\NetCom\include /I.\NetCom\wpcap\Include\pcap /I.\NetCom\wpcap\Include /I.\AbsCom\include /I.\Cmd\include /I.\PlotWave\include /I.\ /I.\..\ /I.\ParseIntelHex\include /I.\FirmwareDL\include /I.\UartBoot\include /I.\RingNetCom\include /I.\socketCom\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SERVODRIVERCOMDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ServoDriverComDll.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AbsCom\src\AbsCom.cpp Cmd\src\ST_GTSD_Cmd.cpp FirmwareDL\src\FirmwareDl.cpp NetCom\src\Net.cpp NetCom\src\NetCommunication.cpp NetCom\src\Packet.cpp ParseIntelHex\src\ParseHex.cpp PlotWave\src\cpu_timer.cpp PlotWave\src\gdef.cpp PlotWave\src\mt_timer.cpp PlotWave\src\PlotWave.cpp PlotWave\src\rn_noTimer.cpp RingNetCom\src\RingNetCom.cpp RingNetCom\src\RingNetPacket.cpp RingNetCom\src\Rninterface.cpp ServoDriverComDll.cpp SocketCom\src\SocketCom.cpp SocketCom\src\SocketInterface.cpp SocketCom\src\SocketPacket.cpp UartBoot\src\hex2ldr.cpp UartBoot\src\ihex.cpp UartBoot\src\serialport.cpp
+         serialport.cpp
+         ihex.cpp
+         hex2ldr.cpp
+         SocketPacket.cpp
+         SocketInterface.cpp
+         SocketCom.cpp
+         ServoDriverComDll.cpp
+         Rninterface.cpp
+         RingNetPacket.cpp
+         RingNetCom.cpp
+         rn_noTimer.cpp
+         PlotWave.cpp
+         mt_timer.cpp
+         gdef.cpp
+         cpu_timer.cpp
+         ParseHex.cpp
+         Packet.cpp
+         NetCommunication.cpp
+         Net.cpp
+         FirmwareDl.cpp
+         正在生成代码...
+         正在编译...
+         ST_GTSD_Cmd.cpp
+         AbsCom.cpp
+         正在生成代码...
+         D:\program\VS2013\VC\bin\CL.exe /c /I.\NetCom\include /I.\NetCom\wpcap\Include\pcap /I.\NetCom\wpcap\Include /I.\AbsCom\include /I.\Cmd\include /I.\PlotWave\include /I.\ /I.\..\ /I.\ParseIntelHex\include /I.\FirmwareDL\include /I.\UartBoot\include /I.\RingNetCom\include /I.\socketCom\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SERVODRIVERCOMDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       Link:
+         D:\program\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Smart\ServoMaster\commandLibrary_copy\RN_LINK\ServoDriverComDll_ringNet\ServoDriverComDll\Debug\ServoDriverComDll.dll" /INCREMENTAL /NOLOGO /LIBPATH:.\NetCom\wpcap\lib .\NetCom\wpcap\lib\wpcap.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Smart\ServoMaster\commandLibrary_copy\RN_LINK\ServoDriverComDll_ringNet\ServoDriverComDll\Debug\ServoDriverComDll.pdb" /SUBSYSTEM:WINDOWS /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Smart\ServoMaster\commandLibrary_copy\RN_LINK\ServoDriverComDll_ringNet\ServoDriverComDll\Debug\ServoDriverComDll.lib" /MACHINE:X86 /DLL Debug\AbsCom.obj
+         Debug\ST_GTSD_Cmd.obj
+         Debug\dllmain.obj
+         Debug\FirmwareDl.obj
+         Debug\Net.obj
+         Debug\NetCommunication.obj
+         Debug\Packet.obj
+         Debug\ParseHex.obj
+         Debug\cpu_timer.obj
+         Debug\gdef.obj
+         Debug\mt_timer.obj
+         Debug\PlotWave.obj
+         Debug\rn_noTimer.obj
+         Debug\RingNetCom.obj
+         Debug\RingNetPacket.obj
+         Debug\Rninterface.obj
+         Debug\ServoDriverComDll.obj
+         Debug\SocketCom.obj
+         Debug\SocketInterface.obj
+         Debug\SocketPacket.obj
+         Debug\stdafx.obj
+         Debug\hex2ldr.obj
+         Debug\ihex.obj
+         Debug\serialport.obj
+         NetCom\wpcap\lib\wpcap.lib
+            正在创建库 D:\Smart\ServoMaster\commandLibrary_copy\RN_LINK\ServoDriverComDll_ringNet\ServoDriverComDll\Debug\ServoDriverComDll.lib 和对象 D:\Smart\ServoMaster\commandLibrary_copy\RN_LINK\ServoDriverComDll_ringNet\ServoDriverComDll\Debug\ServoDriverComDll.exp
+         ServoDriverComDll.vcxproj -> D:\Smart\ServoMaster\commandLibrary_copy\RN_LINK\ServoDriverComDll_ringNet\ServoDriverComDll\Debug\ServoDriverComDll.dll
+     1>已完成生成项目“D:\Smart\ServoMaster\commandLibrary_copy\RN_LINK\ServoDriverComDll_ringNet\ServoDriverComDll\ServoDriverComDll.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.51

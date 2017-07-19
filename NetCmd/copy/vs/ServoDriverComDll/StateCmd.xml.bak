@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>438</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTreeWidget" name="treeWidget">
+     <column>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Type</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Unit</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Cmd</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Lenth</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>SetIndex</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>GetIndex</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Kgain</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Id</string>
+      </property>
+     </column>
+	     <item>
+	      <property name="text">
+	       <string>gSevDrv.sev_chd.curr_state</string>
+	      </property>
+	      <property name="text">
+	       <string>int16</string>
+	      </property>
+	     	<property name="text">
+	       <string>NULL</string>
+	      </property>
+	      <property name="text">
+	       <string>41</string>
+	      </property>
+	      <property name="text">
+	       <string>4</string>
+	      </property>
+	      <property name="text">
+	       <string>3</string>
+	      </property>
+	      <property name="text">
+	       <string>0</string>
+	      </property>
+	      <property name="text">
+	       <string>1</string>
+	      </property>
+	      <property name="text">
+	     	 <string>24</string>
+	      </property>
+	     </item>
+	     <item>
+	      <property name="text">
+	       <string>gSevDrv.sev_obj.cur.adc.vdc</string>
+	      </property>
+	      <property name="text">
+	       <string>int16</string>
+	      </property>
+	      <property name="text">
+	       <string>V</string>
+	      </property>
+	      <property name="text">
+	       <string>41</string>
+	      </property>
+	      <property name="text">
+	       <string>4</string>
+	      </property>
+	      <property name="text">
+	       <string>3</string>
+	      </property>
+	      <property name="text">
+	       <string>0</string>
+	      </property>
+	      <property name="text">
+	       <string>10</string>
+	      </property>
+	      <property name="text">
+	     	 <string>25</string>
+	      </property>
+	     </item>
+	     <item>
+	      <property name="text">
+	      	<string>gSevDrv.sev_obj[axis].cur.pro.alm_flag</string>
+	       <string>gSevDrv.sev_obj.cur.pro.alm_flag</string>
+	      </property>
+	      <property name="text">
+	       <string>Uint16</string>
+	      </property>
+	      <property name="text">
+	       <string>NULL</string>
+	      </property>
+	      <property name="text">
+	       <string>41</string>
+	      </property>
+	      <property name="text">
+	       <string>4</string>
+	      </property>
+	      <property name="text">
+	       <string>3</string>
+	      </property>
+	      <property name="text">
+	       <string>0</string>
+	      </property>
+	      <property name="text">
+	       <string>1</string>
+	      </property>	   
+	      <property name="text">
+	     	 <string>26</string>
+	      </property>   
+	     </item>
+	     <item>
+	      <property name="text">
+	       <string>gSevDrv.sev_obj.cur.pro.alm_code.all</string>
+	      </property>
+	      <property name="text">
+	       <string>Uint32</string>
+	      </property>
+	      <property name="text">
+	       <string>NULL</string>
+	      </property>
+	      <property name="text">
+	       <string>41</string>
+	      </property>
+	      <property name="text">
+	       <string>5</string>
+	      </property>
+	      <property name="text">
+	       <string>3</string>
+	      </property>
+	      <property name="text">
+	       <string>0</string>
+	      </property>
+	      <property name="text">
+	       <string>1</string>
+	      </property>	 
+	      <property name="text">
+	     	 <string>27</string>
+	      </property>     
+	     </item>
+	     <item>
+	      <property name="text">
+	       <string>gSevDrv.sev_chd.cmd_id</string>
+	      </property>
+	      <property name="text">
+	       <string>int16</string>
+	      </property>
+	      <property name="text">
+	       <string>NULL</string>
+	      </property>
+	      <property name="text">
+	       <string>41</string>
+	      </property>
+	      <property name="text">
+	       <string>4</string>
+	      </property>
+	      <property name="text">
+	       <string>3</string>
+	      </property>
+	      <property name="text">
+	       <string>0</string>
+	      </property>
+	      <property name="text">
+	       <string>1</string>
+	      </property>	 
+	      <property name="text">
+	     	 <string>28</string>
+	      </property>     
+	     </item>
+	     <item>
+	      <property name="text">
+	       <string>gSevDrv.sev_chd.curr_id</string>
+	      </property>
+	      <property name="text">
+	       <string>int16</string>
+	      </property>
+	      <property name="text">
+	       <string>NULL</string>
+	      </property>
+	      <property name="text">
+	       <string>41</string>
+	      </property>
+	      <property name="text">
+	       <string>4</string>
+	      </property>
+	      <property name="text">
+	       <string>3</string>
+	      </property>
+	      <property name="text">
+	       <string>0</string>
+	      </property>
+	      <property name="text">
+	       <string>1</string>
+	      </property>	 
+	      <property name="text">
+	     	 <string>29</string>
+	      </property>     
+	     </item>
+	     <item>
+	      <property name="text">
+	       <string>gSevDrv.sev_obj.pos.seq.prm.usr_mode</string>
+	      </property>
+	      <property name="text">
+	       <string>int16</string>
+	      </property>
+	      <property name="text">
+	       <string>NULL</string>
+	      </property>
+	      <property name="text">
+	       <string>41</string>
+	      </property>
+	      <property name="text">
+	       <string>4</string>
+	      </property>
+	      <property name="text">
+	       <string>3</string>
+	      </property>
+	      <property name="text">
+	       <string>0</string>
+	      </property>
+	      <property name="text">
+	       <string>1</string>
+	      </property>	 
+	      <property name="text">
+	     	 <string>30</string>
+	      </property>     
+	     </item>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

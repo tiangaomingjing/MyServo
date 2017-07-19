@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>watchcurvesetting.xml</file>
+        <file>FlashPrm_AllAxis.xml</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>led_off.png</file>
+        <file>led_on.png</file>
+        <file>checked.png</file>
+        <file>unchecked.png</file>
+        <file>drop-down.png</file>
+    </qresource>
+</RCC>

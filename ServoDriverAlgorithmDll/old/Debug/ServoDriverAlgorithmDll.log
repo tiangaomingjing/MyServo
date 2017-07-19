@@ -1,0 +1,27 @@
+﻿生成启动时间为 2016/9/27 11:31:49。
+     1>项目“E:\googoltechdoc\scara\ServoSystemManager1.0_2016_09_05\ServoSystemManager1.0\ServoSystemManager\ServoDriverAlgorithmDll\ServoDriverAlgorithmDll.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /I.\FFT\include /I.\ /I.\..\ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SERVODRIVERALGORITHMDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\ServoDriverAlgorithmDll.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\vs2013\VC\bin\CL.exe /c /I.\FFT\include /I.\ /I.\..\ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SERVODRIVERALGORITHMDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         D:\vs2013\VC\bin\CL.exe /c /I.\FFT\include /I.\ /I.\..\ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SERVODRIVERALGORITHMDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ServoDriverAlgorithmDll.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt FFT\src\GTSD_FFT.cpp ServoDriverAlgorithmDll.cpp
+         ServoDriverAlgorithmDll.cpp
+     1>e:\googoltechdoc\scara\servosystemmanager1.0_2016_09_05\servosystemmanager1.0\servosystemmanager\servodriveralgorithmdll\servodriveralgorithmdll.cpp(40): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\googoltechdoc\scara\servosystemmanager1.0_2016_09_05\servosystemmanager1.0\servosystemmanager\servodriveralgorithmdll\servodriveralgorithmdll.cpp(49): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\googoltechdoc\scara\servosystemmanager1.0_2016_09_05\servosystemmanager1.0\servosystemmanager\servodriveralgorithmdll\servodriveralgorithmdll.cpp(110): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\googoltechdoc\scara\servosystemmanager1.0_2016_09_05\servosystemmanager1.0\servosystemmanager\servodriveralgorithmdll\servodriveralgorithmdll.cpp(117): warning C4018: “<”: 有符号/无符号不匹配
+         GTSD_FFT.cpp
+         正在生成代码...
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\googoltechdoc\scara\ServoSystemManager1.0_2016_09_05\ServoSystemManager1.0\ServoSystemManager\Debug\ServoDriverAlgorithmDll.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\googoltechdoc\scara\ServoSystemManager1.0_2016_09_05\ServoSystemManager1.0\ServoSystemManager\Debug\ServoDriverAlgorithmDll.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\googoltechdoc\scara\ServoSystemManager1.0_2016_09_05\ServoSystemManager1.0\ServoSystemManager\Debug\ServoDriverAlgorithmDll.lib" /MACHINE:X86 /DLL Debug\dllmain.obj
+         Debug\GTSD_FFT.obj
+         Debug\ServoDriverAlgorithmDll.obj
+         Debug\stdafx.obj
+            正在创建库 E:\googoltechdoc\scara\ServoSystemManager1.0_2016_09_05\ServoSystemManager1.0\ServoSystemManager\Debug\ServoDriverAlgorithmDll.lib 和对象 E:\googoltechdoc\scara\ServoSystemManager1.0_2016_09_05\ServoSystemManager1.0\ServoSystemManager\Debug\ServoDriverAlgorithmDll.exp
+         ServoDriverAlgorithmDll.vcxproj -> E:\googoltechdoc\scara\ServoSystemManager1.0_2016_09_05\ServoSystemManager1.0\ServoSystemManager\Debug\ServoDriverAlgorithmDll.dll
+     1>已完成生成项目“E:\googoltechdoc\scara\ServoSystemManager1.0_2016_09_05\ServoSystemManager1.0\ServoSystemManager\ServoDriverAlgorithmDll\ServoDriverAlgorithmDll.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.76

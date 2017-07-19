@@ -1,0 +1,44 @@
+﻿生成启动时间为 2016/10/9 16:43:33。
+     1>项目“E:\googoltechdoc\scara\ServoSystemManager1.0_2016_09_05\ServoSystemManager1.0\ServoSystemManager\ServoDriverComDll\ServoDriverComDll.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /I.\NetCom\include /I.\NetCom\wpcap\Include\pcap /I.\NetCom\wpcap\Include /I.\AbsCom\include /I.\Cmd\include /I.\PlotWave\include /I.\ /I.\..\ /I.\ParseIntelHex\include /I.\FirmwareDL\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SERVODRIVERCOMDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\ServoDriverComDll.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\vs2013\VC\bin\CL.exe /c /I.\NetCom\include /I.\NetCom\wpcap\Include\pcap /I.\NetCom\wpcap\Include /I.\AbsCom\include /I.\Cmd\include /I.\PlotWave\include /I.\ /I.\..\ /I.\ParseIntelHex\include /I.\FirmwareDL\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SERVODRIVERCOMDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ServoDriverComDll.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AbsCom\src\AbsCom.cpp Cmd\src\ST_GTSD_Cmd.cpp FirmwareDL\src\FirmwareDl.cpp NetCom\src\Net.cpp NetCom\src\NetCommunication.cpp NetCom\src\Packet.cpp ParseIntelHex\src\ParseHex.cpp PlotWave\src\cpu_timer.cpp PlotWave\src\gdef.cpp PlotWave\src\mt_timer.cpp PlotWave\src\PlotWave.cpp ServoDriverComDll.cpp
+         ServoDriverComDll.cpp
+         PlotWave.cpp
+         mt_timer.cpp
+         gdef.cpp
+         cpu_timer.cpp
+         ParseHex.cpp
+         Packet.cpp
+         NetCommunication.cpp
+         Net.cpp
+         FirmwareDl.cpp
+         ST_GTSD_Cmd.cpp
+         AbsCom.cpp
+         正在生成代码...
+         D:\vs2013\VC\bin\CL.exe /c /I.\NetCom\include /I.\NetCom\wpcap\Include\pcap /I.\NetCom\wpcap\Include /I.\AbsCom\include /I.\Cmd\include /I.\PlotWave\include /I.\ /I.\..\ /I.\ParseIntelHex\include /I.\FirmwareDL\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SERVODRIVERCOMDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\googoltechdoc\scara\ServoSystemManager1.0_2016_09_05\ServoSystemManager1.0\ServoSystemManager\Debug\ServoDriverComDll.dll" /INCREMENTAL /NOLOGO /LIBPATH:.\NetCom\wpcap\lib .\NetCom\wpcap\lib\wpcap.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\googoltechdoc\scara\ServoSystemManager1.0_2016_09_05\ServoSystemManager1.0\ServoSystemManager\Debug\ServoDriverComDll.pdb" /SUBSYSTEM:WINDOWS /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\googoltechdoc\scara\ServoSystemManager1.0_2016_09_05\ServoSystemManager1.0\ServoSystemManager\Debug\ServoDriverComDll.lib" /MACHINE:X86 /DLL Debug\AbsCom.obj
+         Debug\ST_GTSD_Cmd.obj
+         Debug\dllmain.obj
+         Debug\FirmwareDl.obj
+         Debug\Net.obj
+         Debug\NetCommunication.obj
+         Debug\Packet.obj
+         Debug\ParseHex.obj
+         Debug\cpu_timer.obj
+         Debug\gdef.obj
+         Debug\mt_timer.obj
+         Debug\PlotWave.obj
+         Debug\ServoDriverComDll.obj
+         Debug\stdafx.obj
+         NetCom\wpcap\lib\wpcap.lib
+            正在创建库 E:\googoltechdoc\scara\ServoSystemManager1.0_2016_09_05\ServoSystemManager1.0\ServoSystemManager\Debug\ServoDriverComDll.lib 和对象 E:\googoltechdoc\scara\ServoSystemManager1.0_2016_09_05\ServoSystemManager1.0\ServoSystemManager\Debug\ServoDriverComDll.exp
+         ServoDriverComDll.vcxproj -> E:\googoltechdoc\scara\ServoSystemManager1.0_2016_09_05\ServoSystemManager1.0\ServoSystemManager\Debug\ServoDriverComDll.dll
+     1>已完成生成项目“E:\googoltechdoc\scara\ServoSystemManager1.0_2016_09_05\ServoSystemManager1.0\ServoSystemManager\ServoDriverComDll\ServoDriverComDll.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.33

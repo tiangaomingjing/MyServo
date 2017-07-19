@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="NetCom">
+      <UniqueIdentifier>{6386aed8-52b9-468d-9b22-03931be92408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetCom\include">
+      <UniqueIdentifier>{756143eb-20fc-4668-b83e-a904e46d6c50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetCom\src">
+      <UniqueIdentifier>{f947004f-515d-4adb-9710-a99576e09b17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetCom\lib">
+      <UniqueIdentifier>{e5f640bb-d5a4-42e4-bbd0-42ef283d8ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cmd">
+      <UniqueIdentifier>{1e93bebc-a936-46bd-b6e7-40675d2d69e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cmd\include">
+      <UniqueIdentifier>{0552be36-aa1d-450c-a0ab-6965b63f8bd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cmd\src">
+      <UniqueIdentifier>{8042939d-fbc5-4e70-841a-249cc4c9d823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AbsCom">
+      <UniqueIdentifier>{9f31aeed-1a25-4da0-960f-ffec82c44aed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AbsCom\include">
+      <UniqueIdentifier>{4d142b8e-8b58-4fbf-8c49-034636c8558e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AbsCom\src">
+      <UniqueIdentifier>{16cfe826-973f-4e77-89cf-0cc2c55294ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlotWave">
+      <UniqueIdentifier>{57c842ce-4a97-4fad-ae82-987c532e3308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlotWave\include">
+      <UniqueIdentifier>{579ee3b1-b400-4f0d-990f-4dd1667490bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlotWave\src">
+      <UniqueIdentifier>{14b089d6-868f-4b96-930f-62700689f39b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParseIntelHex">
+      <UniqueIdentifier>{aee757d9-2af4-44ab-ad2f-6463a392f077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParseIntelHex\include">
+      <UniqueIdentifier>{5307eb09-5ade-4070-9b2c-1e64b902c10b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParseIntelHex\src">
+      <UniqueIdentifier>{57ef6a6e-7491-4fba-ac76-7c5456be7731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FirmwareDL">
+      <UniqueIdentifier>{3f209b5a-3a2b-4f9b-9625-d2bcf2ac1618}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FirmwareDL\include">
+      <UniqueIdentifier>{a5225d91-7cd5-45fb-a6da-50e6c9c095d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FirmwareDL\src">
+      <UniqueIdentifier>{e26538aa-0b6e-4973-b0a5-88d75b73385e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ServoDriverComDll.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetCom\include\Net.h">
+      <Filter>NetCom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetCom\include\NetCommunication.h">
+      <Filter>NetCom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetCom\include\Packet.h">
+      <Filter>NetCom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetCom\include\Basetype_def.h">
+      <Filter>NetCom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetCom\include\BaseReturn_def.h">
+      <Filter>NetCom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="AbsCom\include\AbsCom.h">
+      <Filter>AbsCom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmd\include\ST_GTSD_Cmd.h">
+      <Filter>Cmd\include</Filter>
+    </ClInclude>
+    <ClInclude Include="PlotWave\include\PlotWave.h">
+      <Filter>PlotWave\include</Filter>
+    </ClInclude>
+    <ClInclude Include="PlotWave\include\mt_timer.h">
+      <Filter>PlotWave\include</Filter>
+    </ClInclude>
+    <ClInclude Include="PlotWave\include\gdef.h">
+      <Filter>PlotWave\include</Filter>
+    </ClInclude>
+    <ClInclude Include="PlotWave\include\cpu_timer.h">
+      <Filter>PlotWave\include</Filter>
+    </ClInclude>
+    <ClInclude Include="ParseIntelHex\include\ParseHex.h">
+      <Filter>ParseIntelHex\include</Filter>
+    </ClInclude>
+    <ClInclude Include="FirmwareDL\include\FirmwareDl.h">
+      <Filter>FirmwareDL\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ServoDriverComDll.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetCom\src\Net.cpp">
+      <Filter>NetCom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="NetCom\src\NetCommunication.cpp">
+      <Filter>NetCom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="NetCom\src\Packet.cpp">
+      <Filter>NetCom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="AbsCom\src\AbsCom.cpp">
+      <Filter>AbsCom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmd\src\ST_GTSD_Cmd.cpp">
+      <Filter>Cmd\src</Filter>
+    </ClCompile>
+    <ClCompile Include="PlotWave\src\cpu_timer.cpp">
+      <Filter>PlotWave\src</Filter>
+    </ClCompile>
+    <ClCompile Include="PlotWave\src\gdef.cpp">
+      <Filter>PlotWave\src</Filter>
+    </ClCompile>
+    <ClCompile Include="PlotWave\src\mt_timer.cpp">
+      <Filter>PlotWave\src</Filter>
+    </ClCompile>
+    <ClCompile Include="PlotWave\src\PlotWave.cpp">
+      <Filter>PlotWave\src</Filter>
+    </ClCompile>
+    <ClCompile Include="ParseIntelHex\src\ParseHex.cpp">
+      <Filter>ParseIntelHex\src</Filter>
+    </ClCompile>
+    <ClCompile Include="FirmwareDL\src\FirmwareDl.cpp">
+      <Filter>FirmwareDL\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="NetCom\wpcap\lib\wpcap.lib">
+      <Filter>NetCom\lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
